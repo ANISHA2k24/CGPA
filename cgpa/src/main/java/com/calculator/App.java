@@ -13,11 +13,11 @@ public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // 🔹 Ask for student name/ID
+        
         System.out.print("Enter Student Name or ID: ");
         String studentName = sc.nextLine().trim();
 
-        // Predefined subjects and credits
+        
         Map<String, Integer> subjectCredits = new LinkedHashMap<>();
         subjectCredits.put("21CSE07 - AWS", 3);
         subjectCredits.put("21CSE32 - NR", 3);
@@ -44,11 +44,11 @@ public class App {
         }
 
         double cgpa = CGPACalculator.calculateCGPA(subjects);
-        System.out.printf("\n✅ CGPA for %s is: %.2f\n", studentName, cgpa);
+        System.out.printf("\n CGPA for %s is: %.2f\n", studentName, cgpa);
 
-        // 🔽 Append result to file
+        
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("cgpa_result.txt", true))) {
-            writer.write("==========================================\n");
+            writer.write("\n");
             writer.write("Student Name: " + studentName + "\n");
 
             for (Subject s : subjects) {
@@ -57,11 +57,11 @@ public class App {
             }
 
             writer.write(String.format("Final CGPA: %.2f\n", cgpa));
-            writer.write("==========================================\n\n");
+            writer.write("\n\n");
 
-            //System.out.println("📝 Result appended to cgpa_result.txt");
+           
         } catch (IOException e) {
-            System.out.println("❌ Error writing to file: " + e.getMessage());
+            System.out.println(" Error writing to file: " + e.getMessage());
         }
 
         sc.close();
