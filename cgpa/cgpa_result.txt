@@ -1,0 +1,10 @@
+Subject: 21CSE07 - AWS | Grade Point: 8.0 | Credit: 3
+Subject: 21CSE32 - NR | Grade Point: 8.0 | Credit: 3
+Subject: 21CSF20 - CD | Grade Point: 9.0 | Credit: 3
+Subject: 21CSF23 - OOAD | Grade Point: 9.0 | Credit: 3
+Subject: 21CSF34 - JP | Grade Point: 8.0 | Credit: 3
+Subject: 21CSF21 - CDL | Grade Point: 9.0 | Credit: 1
+Subject: 21CSF24 - CTL | Grade Point: 8.0 | Credit: 1
+Subject: 21CSF35 - JPL | Grade Point: 9.0 | Credit: 1
+
+Final CGPA: 8.44
